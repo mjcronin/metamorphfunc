@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "metamorphfunc"
+version = "0.0.1"
+authors = [
+  { name="Matthew Cronin", email="matthew.j.cronin@gmail.com" },
+]
+description = "A function generator for python"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mjcronin/metamorphfunc"
+"Bug Tracker" = "https://github.com/mjcronin/metamorphfunc/issues"
